@@ -5,11 +5,17 @@
 }
 
 .cover{
-    background: blue url(../seabeach.jpg);
+    background: url(../seabeach.jpg);
     width: 100%;
     height: 100vh;
     background-position: center;
     background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.cover svg{
+    position: absolute;
+    bottom: 0%;
 }
 
 nav{
